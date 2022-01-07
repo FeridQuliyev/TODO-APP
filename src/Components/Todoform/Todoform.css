@@ -1,0 +1,48 @@
+  .todo-form {
+     width: 40%;
+     margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+  
+  .todo-form {
+    margin-bottom: 32px;
+  }
+  
+  .todo-input {
+    padding: 14px 0px 14px 0px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #000000;
+    outline: none;
+    width: 320px;
+    background: transparent;
+  }
+  
+  .todo-button {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: crimson;
+  }
+ .todo-button.edit {
+   background: linear-gradient(
+   90deg,
+   rgba(20, 159, 255, 1) 0%,
+  rgba(17, 122, 255, 1) 100%
+    );
+  padding: 16px 22px;
+  border: 2px solid #149fff;
+  } 
